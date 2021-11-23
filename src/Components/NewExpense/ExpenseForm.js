@@ -33,7 +33,7 @@ const ExpenseForm = (props) => {
       date: new Date(dateChange),
     };
 
-    props.saveExpenseDataHandler(expenseData);
+    props.onSaveExpenseData(expenseData);
     setTitleChange("");
     setAmountChange("");
     setDateChange("");
